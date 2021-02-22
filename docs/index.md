@@ -1,28 +1,30 @@
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the software you propose to develop in this project.
+Timely is a time tracking application that allow users to track their work and creative hours all in one place.
+
 
 ## Intended users
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+Creatives who work on multiple contracts.
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user needs to perform, and the benefit that will be obtained. The simplest user stories take the form 
+As a digital freelancer with a crazy schedule I want to be able to track my time spent on specific projects. This will help me when billing hourly for services.
 
-> As a <type of intended user (_who_)> I want to <goal (_what_)> so that <benefit (_why_).
+Creatives who are early in their careers.
 
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
-
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
-
-* People who like to use randomness in their decision making.
-
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
+As a creative who loves to be immersed I want the ability to see what I spend most of my time to help me create better time management.
 
 ## Client component
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the user interface---i.e. tell us what the user will be able to do in the GUI.
+  User will be able to
+
+Track time spent on projects.
+- Utilize the application management for a team, project and specific client.
+- Data collection (Hours spent per project, client and price points for billing)
+- Reports (Total Hours, Total Projects, Projects per client, Hours per project)
+- Calendar and Project History
+- Timing feature that accurately tracks by start and stop feature.
 
 * **Persistent data**
 
@@ -38,7 +40,11 @@ For listing multiple items, please use bullet lists (or ordered lists, if order 
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the server component---i.e. tell us what parts of the system functionality will be performed by the server.
+- Persistent data
+- User Profiles
+- User History
+- Calendar
+- Timing
 
 * **Persistent data**
 
@@ -46,10 +52,18 @@ For listing multiple items, please use bullet lists (or ordered lists, if order 
     
 * **External services**
 
-    If the server component will need to access already-existing external services (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services should include links to the main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not just separate lines or paragraphs of text.
-    
-## Stretch goals/possible enhancements 
+Tag entry system
 
-If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+which would allow us to create entries with multiple tags. We could then view each tag by project, client etc. This would also allow us to list time entries by tag within certain date ranges.
+Google Calender API
+
+https://developers.google.com/calendar
+I believe I could use Google Calendar API as the primary calendar the app would use to track activity across pages.
+Timing Logger
+
+https://developer.android.com/reference/android/util/TimingLogger
+Not sure if this is considered an external service if this API is created by Android Developers. But the ability to track time across multilpe events & dates is a core element to making this application work.
+
+Stretch goals/possible enhancements
+
+Ability to track hours for a project over a weekly or bi-weekly period and produce invoice based on the services and hours rendered.
