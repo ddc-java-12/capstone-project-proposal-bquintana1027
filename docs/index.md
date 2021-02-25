@@ -1,9 +1,10 @@
-## Summary
+<h1> ## Summary </h1>
 
 Timely is a time tracking application that allow users to track their work and creative hours all in one place.
 
+<li></li>
 
-## Intended users
+<h2> ## Intended users </h2>
 
 Creatives who work on multiple contracts.
 
@@ -13,11 +14,12 @@ Creatives who are early in their careers.
 
 As a creative who loves to be immersed I want the ability to see what I spend most of my time to help me create better time management.
 
-## Client component
+<li> </li>
+
+<h2> ## Client component </h2>
 
 * **Functionality**
 
-  User will be able to
 
 Track time spent on projects.
 - Utilize the application management for a team, project and specific client.
